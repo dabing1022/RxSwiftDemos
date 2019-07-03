@@ -19,6 +19,7 @@ class ViewController: UITableViewController {
         ("使用详解3（Observable介绍、创建可观察序列）", "http://www.hangge.com/blog/cache/detail_1922.html", "Demo03"),
         ("使用详解4（Observable订阅、事件监听、订阅销毁）", "http://www.hangge.com/blog/cache/detail_1924.html", "Demo04"),
         ("使用详解5（观察者1： AnyObserver、Binder）", "http://www.hangge.com/blog/cache/detail_1941.html", "Demo05"),
+        ("使用详解6（观察者2： 自定义可绑定属性）", "http://www.hangge.com/blog/cache/detail_1946.html", "Demo06"),
         ("使用详解13（连接操作符：connect、publish、replay、multicast）", "http://www.hangge.com/blog/cache/detail_1935.html", "Demo13"),
         ("使用详解14（其他操作符：delay、materialize、timeout等）", "http://www.hangge.com/blog/cache/detail_1950.html", "Demo14"),
         ("使用详解15（错误处理）", "http://www.hangge.com/blog/cache/detail_1936.html", "Demo15"),
