@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD7B0CC022CF411E00527C7B /* Demo08.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B0CBF22CF411E00527C7B /* Demo08.swift */; };
+		BD7B0CC222CF4A1D00527C7B /* Demo09.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B0CC122CF4A1D00527C7B /* Demo09.swift */; };
+		BD7B0CC422CF4D0000527C7B /* Demo10.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B0CC322CF4D0000527C7B /* Demo10.swift */; };
+		BD7B0CC622CF4DD700527C7B /* Demo11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B0CC522CF4DD700527C7B /* Demo11.swift */; };
+		BD7B0CC822CF541A00527C7B /* Demo12.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B0CC722CF541A00527C7B /* Demo12.swift */; };
+		BD7B0CCA22CF562100527C7B /* Demo17.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B0CC922CF562100527C7B /* Demo17.swift */; };
+		BD7B0CCC22CF625100527C7B /* Demo20.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B0CCB22CF625100527C7B /* Demo20.swift */; };
 		BD7E571E22CCCCC400AA9C73 /* Demo01.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E571D22CCCCC400AA9C73 /* Demo01.swift */; };
 		BD7E572022CCD27000AA9C73 /* Demo02.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E571F22CCD27000AA9C73 /* Demo02.swift */; };
 		BD7E572222CCDA5700AA9C73 /* Demo03.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E572122CCDA5700AA9C73 /* Demo03.swift */; };
@@ -30,6 +37,13 @@
 
 /* Begin PBXFileReference section */
 		3606072A06F49FB1ADB6023B /* libPods-RxSwiftDemos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RxSwiftDemos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7B0CBF22CF411E00527C7B /* Demo08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo08.swift; sourceTree = "<group>"; };
+		BD7B0CC122CF4A1D00527C7B /* Demo09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo09.swift; sourceTree = "<group>"; };
+		BD7B0CC322CF4D0000527C7B /* Demo10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo10.swift; sourceTree = "<group>"; };
+		BD7B0CC522CF4DD700527C7B /* Demo11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo11.swift; sourceTree = "<group>"; };
+		BD7B0CC722CF541A00527C7B /* Demo12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo12.swift; sourceTree = "<group>"; };
+		BD7B0CC922CF562100527C7B /* Demo17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo17.swift; sourceTree = "<group>"; };
+		BD7B0CCB22CF625100527C7B /* Demo20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo20.swift; sourceTree = "<group>"; };
 		BD7E571D22CCCCC400AA9C73 /* Demo01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo01.swift; sourceTree = "<group>"; };
 		BD7E571F22CCD27000AA9C73 /* Demo02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo02.swift; sourceTree = "<group>"; };
 		BD7E572122CCDA5700AA9C73 /* Demo03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo03.swift; sourceTree = "<group>"; };
@@ -125,10 +139,17 @@
 				BD7E572522CCDE2D00AA9C73 /* Demo05.swift */,
 				BD7E572722CCEBF000AA9C73 /* Demo06.swift */,
 				BD7E57C122CEE47700AA9C73 /* Demo07.swift */,
+				BD7B0CBF22CF411E00527C7B /* Demo08.swift */,
+				BD7B0CC122CF4A1D00527C7B /* Demo09.swift */,
+				BD7B0CC322CF4D0000527C7B /* Demo10.swift */,
+				BD7B0CC522CF4DD700527C7B /* Demo11.swift */,
+				BD7B0CC722CF541A00527C7B /* Demo12.swift */,
 				BDC0BE2322CC707500466B85 /* Demo13.swift */,
 				BDC0BE2022CC508F00466B85 /* Demo14.swift */,
 				BDC0BE1E22CC3FB100466B85 /* Demo15.swift */,
 				BDC0BE1C22CC3B1700466B85 /* Demo16.swift */,
+				BD7B0CC922CF562100527C7B /* Demo17.swift */,
+				BD7B0CCB22CF625100527C7B /* Demo20.swift */,
 				BDC0BE1622CB77FC00466B85 /* Demo30.swift */,
 				BDC0BE1822CBA32300466B85 /* BaseDemo.swift */,
 			);
@@ -236,9 +257,16 @@
 				BDC0BE0622CB660300466B85 /* ViewController.swift in Sources */,
 				BD7E57C222CEE47700AA9C73 /* Demo07.swift in Sources */,
 				BD7E572822CCEBF000AA9C73 /* Demo06.swift in Sources */,
+				BD7B0CC022CF411E00527C7B /* Demo08.swift in Sources */,
+				BD7B0CC422CF4D0000527C7B /* Demo10.swift in Sources */,
+				BD7B0CCC22CF625100527C7B /* Demo20.swift in Sources */,
+				BD7B0CC222CF4A1D00527C7B /* Demo09.swift in Sources */,
+				BD7B0CC822CF541A00527C7B /* Demo12.swift in Sources */,
 				BD7E572022CCD27000AA9C73 /* Demo02.swift in Sources */,
 				BDC0BE1922CBA32300466B85 /* BaseDemo.swift in Sources */,
 				BD7E572622CCDE2D00AA9C73 /* Demo05.swift in Sources */,
+				BD7B0CCA22CF562100527C7B /* Demo17.swift in Sources */,
+				BD7B0CC622CF4DD700527C7B /* Demo11.swift in Sources */,
 				BDC0BE1F22CC3FB100466B85 /* Demo15.swift in Sources */,
 				BDC0BE2122CC508F00466B85 /* Demo14.swift in Sources */,
 				BD7E571E22CCCCC400AA9C73 /* Demo01.swift in Sources */,

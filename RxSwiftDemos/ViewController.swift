@@ -21,11 +21,18 @@ class ViewController: UITableViewController {
         ("使用详解5（观察者1： AnyObserver、Binder）", "http://www.hangge.com/blog/cache/detail_1941.html", "Demo05"),
         ("使用详解6（观察者2： 自定义可绑定属性）", "http://www.hangge.com/blog/cache/detail_1946.html", "Demo06"),
         ("使用详解7（Subjects、Variables）", "http://www.hangge.com/blog/cache/detail_1929.html", "Demo07"),
+        ("使用详解8（变换操作符：buffer、map、flatMap、scan等）", "http://www.hangge.com/blog/cache/detail_1932.html", "Demo08"),
+        ("使用详解9（过滤操作符：filter、take、skip等）", "http://www.hangge.com/blog/cache/detail_1933.html", "Demo09"),
+        ("使用详解10（条件和布尔操作符：amb、takeWhile、skipWhile等）", "http://www.hangge.com/blog/cache/detail_1948.html", "Demo10"),
+        ("使用详解11（结合操作符：startWith、merge、zip等）", "http://www.hangge.com/blog/cache/detail_1930.html", "Demo11"),
+        ("使用详解12（算数&聚合操作符：toArray、reduce、concat）", "http://www.hangge.com/blog/cache/detail_1934.html", "Demo12"),
         ("使用详解13（连接操作符：connect、publish、replay、multicast）", "http://www.hangge.com/blog/cache/detail_1935.html", "Demo13"),
         ("使用详解14（其他操作符：delay、materialize、timeout等）", "http://www.hangge.com/blog/cache/detail_1950.html", "Demo14"),
         ("使用详解15（错误处理）", "http://www.hangge.com/blog/cache/detail_1936.html", "Demo15"),
         ("使用详解16（调试操作）", "http://www.hangge.com/blog/cache/detail_1937.html", "Demo16"),
+        ("使用详解17（特征序列1：Single、Completable、Maybe）", "http://www.hangge.com/blog/cache/detail_1939.html", "Demo17"),
         ("使用详解18（特征序列2：Driver）", "http://www.hangge.com/blog/cache/detail_1942.html", "Demo18"),
+        ("使用详解20（调度器、subscribeOn、observeOn）", "http://www.hangge.com/blog/cache/detail_1940.html", "Demo20"),
         ("使用详解30（UITableView的使用1：基本用法）", "http://www.hangge.com/blog/cache/detail_1976.html", "Demo30"),
         ("使用详解31（UITableView的使用2：RxDataSources）", "http://www.hangge.com/blog/cache/detail_1982.html", "Demo31")
     ]
