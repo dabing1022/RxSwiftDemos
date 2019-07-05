@@ -39,14 +39,29 @@ class Demo06 : BaseDemo {
         let observable = Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance)
         observable
             .map { startFontSize + CGFloat($0) }
-            .bind(to: label.fontSize) //根据索引数不断变放大字体
+//            .bind(to: label.fontSize) // bind way 1
+            .bind(to: label.rx.fontSize) // bind way 2
             .disposed(by: disposeBag)
     }
 }
 
-extension UILabel {
+
+
+// MARK: bind way 1
+
+//extension UILabel {
+//    public var fontSize: Binder<CGFloat> {
+//        return Binder(self) { label, fontSize in
+//            label.font = UIFont.systemFont(ofSize: fontSize)
+//        }
+//    }
+//}
+
+// MARK: bind way 2
+
+extension Reactive where Base: UILabel {
     public var fontSize: Binder<CGFloat> {
-        return Binder(self) { label, fontSize in
+        return Binder(self.base) { label, fontSize in
             label.font = UIFont.systemFont(ofSize: fontSize)
         }
     }
